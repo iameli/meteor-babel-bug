@@ -1,0 +1,29 @@
+{
+  "name": "meteor-babel-bug",
+  "version": "1.0.0",
+  "description": "Demonstrate a bug in Meteor's ecmascript package",
+  "main": "meteor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/iameli/meteor-babel-bug"
+  },
+  "babel": {
+    "presets": ["es2015", "react"]
+  },
+  "author": "Eli Mallon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iameli/meteor-babel-bug/issues"
+  },
+  "homepage": "https://github.com/iameli/meteor-babel-bug",
+  "dependencies": {
+    "babel-core": "^6.1.4",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.4",
+    "babel-preset-react": "^6.1.4",
+    "webpack": "^1.12.4"
+  }
+}
